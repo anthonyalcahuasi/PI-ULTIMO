@@ -1,0 +1,16 @@
+<mat-card-header>
+    <mat-card-title>
+        <a [routerLink]="['/soli']">
+            {{post.nombre}}
+        </a>
+    </mat-card-title>
+</mat-card-header>
+<img matCardImage [src]="post.imagePost">
+<mat-card-content>
+    <p class="content">
+        {{post.codigoU}}
+    </p>
+    <p class="content">
+        {{post.eNombre}}
+    </p>
+</mat-card-content>
